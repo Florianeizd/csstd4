@@ -15,7 +15,7 @@ async function test(month) {
 
             data.records.forEach(function(element){
                 // the methods used for "date_debut_ancien" and "" substracts "2019-", in order to only get the month and the day, and the others reversed the date so it could be in the french format
-                festivalList.push({ nom_festival: element.fields.nom_de_la_manifestation, date_debut: element.fields.date_debut_ancien.substring(5).split("-").reverse().join("-"), date_fin: element.fields.date_de_fin_ancien.substring(5).split("-").reverse().join("-"), lieu: element.fields.commune_principale });
+                festivalList.push({ nom_festival: element.fields.nom_de_la_manifestation, date_debut: element.fields.date_debut_ancien.substring(5).split("-").reverse().join("-"), date_fin: element.fields.date_de_fin_ancien.substring(5).split("-").reverse().join("-"), lieu: element.fields.commune_principale='93' });
             })
             console.log(festivalList)
 
