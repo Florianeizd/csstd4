@@ -1,10 +1,10 @@
 {
   "name": "csstd4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Florianeizd/csstd4/issues"
   },
-  "homepage": "https://github.com/Florianeizd/csstd4#readme"
+  "homepage": "https://github.com/Florianeizd/csstd4#readme",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "jest": "^29.6.1"
+  }
 }
