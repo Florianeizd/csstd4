@@ -1,7 +1,7 @@
-const getRandomNumber = require('./index');
+const test = require('./index');
 
-test('should first', () => { 
-    const number = getRandomNumber();
-    expect(number).toBeGreaterThanOrEqual(0);
-    expect(number).toBeLessThanOrEqual(100);
+test('it should return an integer', () => {
+    const tests = tests();
+    expect(tests).toBe(1);
+    
 })
