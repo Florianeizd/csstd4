@@ -1,7 +1,7 @@
 const test = require('./index');
 
-test('it should return an integer', () => {
-    const tests = tests();
-    expect(tests).toBe(1);
-    
+test('it should return an integer', async() => {
+    const tests = await tests();
+    expect(festivals).not.toBeNull();
+    expect(festivals).toBeInstanceOf(Array);
 })
